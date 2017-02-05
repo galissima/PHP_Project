@@ -16,11 +16,12 @@ for ($m = 0; $m <$row; $m++){
 	echo "<tr>";
 	for($n=0; $n <$col; $n++){
 		
-// 		echo "<td>" . $mattrix[$m][$n]. "</td>";		
-// 	}
-// 	echo "</tr>";
-// }
-// echo "</table>";
+		echo "<td>" . $mattrix[$m][$n]. "</td>";		
+	}
+	echo "</tr>";
+}
+echo "</table>";
+echo "Break yourself";
 
 
 
