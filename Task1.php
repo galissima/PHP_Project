@@ -1,27 +1,4 @@
 <?php
-echo "задача 1: <br>";
-$mattrix = [];
-$num = 20;
-$row = 4;
-$col = 5;
-for($i=0; $i<$row; $i++){
-
-	for($j=0; $j<$col; $j++){
-		$mattrix[$i][$j] = $num;
-	$num--;		
-}
-}
-echo "<table border=1>";
-for ($m = 0; $m <$row; $m++){
-	echo "<tr>";
-	for($n=0; $n <$col; $n++){
-		
-		echo "<td>" . $mattrix[$m][$n]. "</td>";		
-	}
-	echo "</tr>";
-}
-echo "</table>";
-echo "Break yourself";
 
 
 
