@@ -10,6 +10,7 @@ session_start();
 </head>
 <body>
 <?php 
+// 	new comment
 if (!empty($_POST['submit'])) {
 	$_SESSION['username'] = $_POST['username'];
 	echo "Hello, ".$_SESSION['username'];
